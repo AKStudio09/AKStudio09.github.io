@@ -1,0 +1,121 @@
+nav {
+    background-color: black;
+    text-align: right;
+    border-radius: 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+nav img {
+    height: 35px;
+    width: auto;
+	padding: 7px;
+	padding-top: 0px;
+	padding-left: 15px;
+    float: left;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+  
+nav li {
+	display: inline-block;
+	padding: 10px;
+}
+  
+nav a {
+	color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px;
+    transition: background-color, color, border-radius, padding 0.5s ease;
+}  
+nav a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 5px;
+}
+#login-btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 8px 18px;
+    font-size: 14px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float: right;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+#login-btn:hover {
+    background-color: #3e8e41; /* Darker Green */
+}
+
+/*Main*/
+
+main {
+    padding: 2em;
+}
+main h2 {
+    font-size: 2em;
+    display: inline-block;
+    padding-left: 10px; /* Add padding to the left side of the h2 element */
+}
+.text {
+    text-align: center;
+}
+#Welcome {
+    font-size: 3em;
+    font-family: 'Satisfy', cursive;
+    text-shadow: 2px 2px 4px #000000;
+    display: inline-block;
+    flex: 1;
+}
+.main-card {
+    border: 1px solid #ccc; /* Add a border to the main-card */
+    border-radius: 5px; /* Add some border-radius to the main-card */
+    box-shadow: 2px 2px 4px #ccc; /* Add a shadow to the main-card */
+    padding: 1em; /* Add some padding inside the main-card */
+    width: 100%; /* Set the width of the main-card */
+    margin: 0 auto; /* Center the main-card horizontally */
+    background: linear-gradient(to right, #ff7f50, #ffa07a, #ffc0cb);
+}
+.title-starting {
+    font-size: 1.2em; /* Increase the font size */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the text */
+    color: rgb(19, 18, 18); /* Set the text color to #333 */
+    margin-bottom: 1em; /* Add a margin at the bottom */
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 4px #000000;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.card {
+    background: linear-gradient(to bottom, #7df9ff, #00bfff);
+    padding: 1em;
+    width: 29%;
+    margin-bottom: 2em;
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 5px 5px 10px #888888;
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: scale(1.1); /* Scale up the element by 10% */
+}
+
+.card h3 {
+    margin-top: 0;
+}
